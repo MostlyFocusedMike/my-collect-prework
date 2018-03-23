@@ -1,8 +1,8 @@
-def my_collect(array)
+def hello_t(collection)
       i = 0
       new_arr = []
-      while i < array.length
-        new_val = yield(array[i])
+      while i < collection.length
+        new_val = yield(collection[i])
         new_arr << new_val
         i = i + 1
       end
